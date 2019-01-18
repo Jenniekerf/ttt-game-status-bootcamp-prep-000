@@ -39,7 +39,7 @@ WIN_COMBINATIONS = [
   
   def winner(board)
     winner = won?(board)
-    
+    if winner != nil
     board[winner[0]]
   end
   end
